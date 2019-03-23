@@ -1,1 +1,20 @@
 // Mixins Here
+
+// LESS Parametric Mixin
+.button_look(@width:100px,@height:30px){
+        background-color:@btn-bg-color;
+        width: @width;
+        height: @height;
+        font-size: 1.8rem;
+        color: white;
+        text-align: center;
+        padding-top: 6px;
+        border-radius: 4px;
+
+// &:hover{
+//         background-color:white;
+//         color:@btn-bg-color;
+//         } 
+    }
+
+@phone: ~"(max-width: 500px)";

@@ -34,13 +34,37 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive web design relies on predefined screen sizes to adapt itself to resolutions across devices. It is about creating different pages in accordance with the specific size of a device. It will showcase corresponding page according to the screen resolution of the device. This will display different pages based on different screen resolution.
+
+responsive : It provides precise viewing experience of a website to the user, adapting to all screens across devices. It will automatically adapt to the user's device regardless of the screen size. CSS Media Query, Content (Based Breakpoint)
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Desktop first: This approach means designing for the highest specifications — the best achievable by design- and then going down to smaller resolutions.
+
+mobile first: This is a very focused approach that begins with designing for the main function of the site, then aims for higher resolutions. 50% or more.
+
+It depends on number of visitors.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This will turn 1 rem= 10px. So if you want 24 px then that will equate to 2.4rem.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is simply a more robust syntax for CSS written in a different language. That language is then compiled into normal CSS.
+Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. Such as SASS,LESS, and stylus.
+
+Features:
+Variables
+Nesting
+Mixins
+Extends
+Color Operations
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+When using LESS I have features to help streamline everything. I have trouble with of having multiple placeholders within placeholder, that is when I get confused but slowly I will overcome it.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
